@@ -1,0 +1,14 @@
+   CLEAR SCREEN
+   DIM COLORS$(6)
+   COLORS$(1) = "RED"
+   COLORS$(2) = "BLUE"
+   COLORS$(3) = "GREEN"
+   COLORS$(4) = "YELLOW"
+   COLORS$(5) = "CYAN"
+   COLORS$(6) = "MAGENTA"
+   FOR I = 1 TO 20
+      J = MOD(I, 6)
+      PRINT COLOR(COLORS$(J+1)) "HELLO WORLD\n";
+   NEXT I
+   PRINT "DONE"
+   END

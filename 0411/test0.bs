@@ -1,0 +1,15 @@
+10 REM "test0.bs"
+   I = 3
+   J = 2
+   K = TEST(I, J)
+   IF K > 5 THEN
+      PRINT ">5"
+   ELSE
+      PRINT "<=5"
+   END IF
+30 END
+
+   SUB TEST(I, J)
+     K = I * J
+     RETURN K
+   END SUB
