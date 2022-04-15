@@ -8,17 +8,17 @@
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": null
+      "points": 10
     },
     {
       "name": "0418",
-      "setup": "sudo apt install -y indent sed awk",
+      "setup": "sudo apt install -y indent sed gawk",
       "run": "cd 0418; make",
       "input": "",
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": null
+      "points": 10
     }
   ]
 }
