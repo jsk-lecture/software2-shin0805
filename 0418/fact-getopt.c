@@ -26,6 +26,18 @@ int main (int argc, char *argv[]) {
   int c, x, ret;
   // https://www.gnu.org/software/libc/manual/html_node/Example-of-Getopt.html
   // を参考に ./fact-getopt -d 10 とした際にDebug変数がTRUEと成るようにしてみよ．
+  while ((c = getopt (argc, argv, "d")) != -1)
+  {
+    switch (c)
+      {
+      case 'd':
+        Debug = TRUE;
+        break;
+      default:
+        printf("-d for DEBUG\n");
+        break;
+      }
+  }
   x = atoi(argv[optind]);
   ret = fact(x);
   printf("ret = %d\n", ret);
