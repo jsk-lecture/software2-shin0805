@@ -22,7 +22,7 @@
     },
     {
       "name": "0425",
-      "setup": "apt install -y python racket",
+      "setup": "sudo apt install -y python racket",
       "run": "cd 0425; make",
       "input": "",
       "output": "",
