@@ -29,6 +29,16 @@
       "comparison": "included",
       "timeout": 10,
       "points": null
+    },
+    {
+      "name": "0502",
+      "setup": "",
+      "run": "cd 0502; make",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
     }
   ]
 }
