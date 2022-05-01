@@ -22,7 +22,7 @@
     },
     {
       "name": "0425",
-      "setup": "sudo apt install -y python racket",
+      "setup": "sudo apt install -y python racket swi-prolog-nox",
       "run": "cd 0425; make",
       "input": "",
       "output": "",
