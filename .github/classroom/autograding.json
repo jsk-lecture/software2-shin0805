@@ -59,6 +59,16 @@
       "comparison": "included",
       "timeout": 10,
       "points": null
+    },
+    {
+      "name": "0613",
+      "setup": "sudo apt install -y libgsl-dev ",
+      "run": "(cd 0613; make)",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
     }
   ]
 }
