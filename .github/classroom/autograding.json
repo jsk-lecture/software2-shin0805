@@ -1,9 +1,9 @@
 {
   "tests": [
     {
-      "name": "0411",
+      "name": "01",
       "setup": "sudo apt update -y -q && sudo apt install -y gauche gfortran fp-compiler default-jdk golang-go",
-      "run": "export GOCACHE=/tmp/.gocache; mkdir -p $GOCACHE; cd 0411; make",
+      "run": "export GOCACHE=/tmp/.gocache; mkdir -p $GOCACHE; cd 01; make",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -11,9 +11,9 @@
       "points": 10
     },
     {
-      "name": "0418",
+      "name": "02",
       "setup": "sudo apt install -y indent sed gawk",
-      "run": "cd 0418; make",
+      "run": "cd 02; make",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -21,9 +21,9 @@
       "points": 10
     },
     {
-      "name": "0425",
+      "name": "03",
       "setup": "sudo apt install -y python racket swi-prolog-nox",
-      "run": "cd 0425; make",
+      "run": "cd 03; make",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -31,9 +31,9 @@
       "points": 10
     },
     {
-      "name": "0502",
+      "name": "04",
       "setup": "",
-      "run": "cd 0502; make",
+      "run": "cd 04; make",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -41,9 +41,9 @@
       "points": 10
     },
     {
-      "name": "0509",
+      "name": "05",
       "setup": "",
-      "run": "cd 0509; make",
+      "run": "cd 05; make",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -51,9 +51,9 @@
       "points": 10
     },
     {
-      "name": "0606",
+      "name": "08",
       "setup": "",
-      "run": "cd 0606; make",
+      "run": "cd 08; make",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -61,9 +61,9 @@
       "points": null
     },
     {
-      "name": "0613",
+      "name": "09",
       "setup": "sudo apt install -y libgmp-dev libgsl-dev ",
-      "run": "(cd 0613; make)",
+      "run": "(cd 09; make)",
       "input": "",
       "output": "",
       "comparison": "included",
